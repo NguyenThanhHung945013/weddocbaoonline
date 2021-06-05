@@ -10,39 +10,56 @@
   
   
 }
-
+span.blue {
+    color: blue;
+}
+span.red {
+    color: red;
+}
+h1{
+    text-align: center;
+    margin-top:  15px;
+}
 header{
    
     height: 100px;
     background: rgb(236, 238, 241);
 }
 header img{
- padding-left: 130px;
+ padding-left: 300px;
     height: 100px;
     float:left;
 }
 nav{
-    height: 40px;
+    height: 35px;
     background:blue ;
 }
 nav .menu ul{
     list-style: none;
 }
 nav .menu ul li{
-    text-align: center;
-    padding-left: 1px;
-    line-height: 40px;
+
+    float: left;
+    line-height: 35px;
     padding: 0 15px;
 }
 nav .menu ul li a{
     color:#fff;
     font-size: 15px;
+    text-decoration: none;
 }
 nav .search{
-    line-height:100px;
+   float right: 150px;
+    line-height:35px;
+{
+ nav  ul li a :hover{
+ background-color: rgb(104, 135, 194);
+       }
    
-    margin-right:500px;
    
-}
+
+    
+   
+
 
 
