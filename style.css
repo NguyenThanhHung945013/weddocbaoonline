@@ -1,12 +1,39 @@
-*{
+body{
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     font-family: "Roboto",sans-serif;
+}
+
+left{
+    width: 200px;
+    height: 2000px;
+    background-color: rgb(221, 8, 221);
+    float:left;
+}
+content{
+    width:850px;
+    height: 2000px;
+    background-color: white;
+    float: left;
+}
+
+
+right{
+    width: 425px;
+    height:2000px;
+    background-color: rgb(255, 20, 20);
+    float:left;
+}
+footer{
+    width: 100%;
+    height:60px;
+    background-color: rgb(223, 14, 32);
+    clear:both;
 }
 
 .container{
     width: 980px;
-    margin: 0 auto; 
+    margin: auto;
   
   
 }
@@ -26,12 +53,13 @@ header{
     background: rgb(236, 238, 241);
 }
 header img{
- padding-left: 300px;
+ padding-left:200px;
     height: 100px;
     float:left;
+
 }
 nav{
-    height: 35px;
+    height: 40px;
     background:blue ;
 }
 nav .menu ul{
@@ -48,13 +76,37 @@ nav .menu ul li a{
     font-size: 15px;
     text-decoration: none;
 }
+ul.mot a:hover{
+    background-color: rgb(14, 110, 201);
+}
 nav .search{
    float right: 150px;
     line-height:35px;
-{
- nav  ul li a :hover{
- background-color: rgb(104, 135, 194);
-       }
+    color:black;
+   
+
+}
+.myslise{
+    width: 100%;
+    height: 100%;
+   
+  
+}
+.myslide img{
+    width:100%;
+    height: 100%;
+   
+}
+
+
+
+
+ 
+
+
+
+
+
    
    
 
