@@ -3,13 +3,18 @@ body{
     margin: 0 auto;
     font-family: "Roboto",sans-serif;
 }
-
 left{
     width: 200px;
     height: 2000px;
     background-color: rgb(221, 8, 221);
     float:left;
 }
+
+
+
+ 
+
+
 content{
     width:850px;
     height: 2000px;
@@ -21,7 +26,7 @@ content{
 right{
     width: 425px;
     height:2000px;
-    background-color: rgb(255, 20, 20);
+    background-color: white;
     float:left;
 }
 footer{
@@ -37,14 +42,14 @@ footer{
   
   
 }
-span.blue {
-    color: blue;
+span.green {
+    color: green;
 }
-span.red {
-    color: red;
+span.green {
+    colo:green;
 }
 h1{
-    text-align: center;
+    float :left;
     margin-top:  15px;
 }
 header{
@@ -58,8 +63,31 @@ header img{
     float:left;
 
 }
+
+ul.mot a:hover{
+    background-color: rgb(14, 110, 201);
+}
+header .search{
+   float:left;
+   width :400px;
+   margin-right: 400px;
+    line-height:35px;
+    color:black;
+   
+
+}
+content img{
+    width: 850px;
+    height: 150px;
+}
+left{
+    width: 200px;
+    height: 2000px;
+    background-color: rgb(221, 8, 221);
+    float:left;
+}
 nav{
-    height: 40px;
+    height: 35px;
     background:blue ;
 }
 nav .menu ul{
@@ -67,7 +95,7 @@ nav .menu ul{
 }
 nav .menu ul li{
 
-    float: left;
+    display:inline-block;
     line-height: 35px;
     padding: 0 15px;
 }
@@ -75,30 +103,8 @@ nav .menu ul li a{
     color:#fff;
     font-size: 15px;
     text-decoration: none;
-}
-ul.mot a:hover{
-    background-color: rgb(14, 110, 201);
-}
-nav .search{
-   float right: 150px;
-    line-height:35px;
-    color:black;
-   
-
-}
-.myslise{
-    width: 100%;
-    height: 100%;
-   
-  
-}
-.myslide img{
-    width:100%;
-    height: 100%;
    
 }
-
-
 
 
  
