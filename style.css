@@ -4,42 +4,60 @@ body{
     font-family: "Roboto",sans-serif;
 }
 left{
-    width: 500px;
-    height: 4000px;
-    background-color: white;
-   float:left;
-   margin-left: 50px;
+    width: 200px;
+    height: 5000px;
+    background-color: rgb(242, 241, 247);
+    float:left;
+  
 }
 
+
+content h3{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(17, 238, 80);
+    color: rgb(211, 17, 17);
+    text-align: center;
+   
+}
+right .gogi img{
+    width:300px;
+    height: 400px;
+}
 
 
  
 right img {
     width: 300px;
-    height: 150px;
+    height: 200px;
 }
 content{
     width:600px;
-    height: 4000px;
+    height: 5000px;
     background-color: white;
+    margin-left: 20px;
     float: left;
+   
 }
 
 
 right{
     width:300px;
-    height:4000px;
+    height:5000px;
     background-color: white;
-    margin-left: 10px;
+    margin-left: 50px;
     float:left;
+   
     
 }
-footer{
-    width: 100%;
-    height:60px;
-    background-color: rgb(223, 14, 32);
-    clear:both;
+inside {
+    width: 250px;
+    height: 500px;
+    background-color: darkorange;
+    float: left;
 }
+
+
 
 .container{
     width: 980px;
@@ -70,7 +88,9 @@ header img{
 }
 
 ul.mot a:hover{
-    background-color: rgb(14, 110, 201);
+    background-color:rgb(2, 27, 13);
+    color:black;
+    transition: background,color .2s ease-out;
 }
 header .search{
     
@@ -85,19 +105,14 @@ header .search{
 }
 content img{
     width: 600px;
-    height: 150px;
+    height: 200px;
 }
 content .hai img{
     width :600px;
     height: 300px;
 
 }
-left{
-    width: 200px;
-    height: 2000px;
-    background-color: white;
-    float:left;
-}
+
 nav{
     height: 35px;
     background:blue ;
@@ -117,8 +132,7 @@ nav .menu ul li a{
     text-decoration: none;
    
 }
-.small{
-    display:flex;
+.small{   
     width: 200px;
     height:186px ;
 }
@@ -232,11 +246,46 @@ img.con3{
     }
     .hai video{
         width: 600px;
-    }
-    
-    
+    } 
    
+    footer .container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    footer{
+        position: relative;
+        padding: 50px 100px;
+        background: rgb(240, 239, 239);
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        clear:both;
 
+    }
+    .social-icon {
+        width: 150px; /* Set a specific width */
+        
+        text-decoration: none;
+        list-style: none;
+      }
+      
+      .social-icon a {
+        display: flex; 
+        text-align: center; /* Center-align text */
+       ; /* Add some padding */
+        transition: all 0.3s ease; /* Add transition for hover effects */
+        
+        font-size: 36px; /* Increased font-size */
+      }
+      
+      .social-icon  a:hover {
+        background-color: rgb(118, 6, 6); 
+      }
+      .noi-dunglinks {
+          text-decoration: none;
+      } 
 
 
 

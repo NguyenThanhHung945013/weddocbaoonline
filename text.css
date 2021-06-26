@@ -1,0 +1,134 @@
+body {
+    font-family:"Roboto",sans-serif;
+    font-size: 15px;
+    width:100%;
+    margin: 0px auto;
+}
+.ten{
+text-align: center;
+}
+.top{
+    text-align: right;
+    float: right;
+    list-style: none;
+} 
+.logo  img{
+    width: 180px;
+    height: 150px;
+
+    float :left;
+}
+}
+.mot{
+    text-align: center;
+    float left: 200px;
+}
+
+.tieude ul li {
+    text-align:right;
+    list-style: none;
+    float: right;
+    padding: 0px 10px;
+}
+#main #left {
+    width:200px;
+    background-color: rgb(115, 72, 208);
+    float:left;
+    border: 1px solid black;
+    border-radius: 10px;
+    min-height: 400px;
+}
+#main #right{
+    background-color:rgb(19, 135, 193);
+    width: 900px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    min-height: 400px;
+    display: flex;
+}
+#main #left1 {
+    width:200px;
+    background-color: rgb(115, 72, 208);
+    float:left;
+    min-height: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.menuu {
+   
+    
+    background:rgb(80, 175, 80);
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    line-height:20px;
+    
+  }
+  #content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack:center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+#main #left ul li{
+    clear:left;
+    list-style: none;
+    float: left;
+    margin-bottom:20px ;
+    border-bottom: 2px solid black;
+    text-decoration:none ;
+    margin-bottom:20px ;
+}
+#main #left ul li img{
+    float: left;
+    margin-right:10px;
+    margin-bottom: 20px;
+}
+#main #left ul li h2{
+   font-size: 16px;
+   margin-top: 0px;
+}
+#main{
+   margin-top: 10px;
+}
+.sp{
+    text-align: center;
+}
+#main #right .menu_right ul li a{
+    display: block;
+    text-decoration: none;
+    line-height:35px;
+    height:40px ;
+    text-indent:25px;
+}
+#main #right .menu_right h3{
+    height: 50px;
+    margin-top: 0px;
+    text-align:left;
+    font-size: 14px;
+    line-height:40px;
+    color: rgb(9, 150, 25);
+    text-indent:60px;
+}
+#footer{
+    background-color: rgb(63, 96, 196);
+    width: 100%;
+    text-align: center;
+    height:auto;
+    color: rgb(44, 160, 44);
+    clear: left;
+    line-height:60px;
+}
+#left img{
+    padding:10px 30px 10px 10px ;
+    width: 135px;
+}
+menu_right h1{
+    color: rgb(15, 8, 224);
+}
+
+}
