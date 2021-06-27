@@ -4,6 +4,7 @@ body{
     font-family: "Roboto",sans-serif;
 }
 left{
+   
     width: 200px;
     height: 5000px;
     background-color: rgb(242, 241, 247);
@@ -50,6 +51,7 @@ right{
    
     
 }
+
 inside {
     width: 250px;
     height: 500px;
@@ -88,6 +90,7 @@ header img{
 }
 
 ul.mot a:hover{
+   
     background-color:rgb(2, 27, 13);
     color:black;
     transition: background,color .2s ease-out;
@@ -105,6 +108,7 @@ header .search{
 }
 content img{
     width: 600px;
+   
     height: 200px;
 }
 content .hai img{
@@ -113,25 +117,9 @@ content .hai img{
 
 }
 
-nav{
-    height: 35px;
-    background:blue ;
-}
-nav .menu ul{
-    list-style: none;
-}
-nav .menu ul li{
 
-    display:inline-block;
-    line-height: 35px;
-    padding: 0 15px;
-}
-nav .menu ul li a{
-    color:#fff;
-    font-size: 15px;
-    text-decoration: none;
-   
-}
+
+
 .small{   
     width: 200px;
     height:186px ;
@@ -246,7 +234,10 @@ img.con3{
     }
     .hai video{
         width: 600px;
-    } 
+    }
+    
+    
+     
    
     footer .container{
         display: flex;
@@ -265,7 +256,7 @@ img.con3{
 
     }
     .social-icon {
-        width: 150px; /* Set a specific width */
+        width: 150px; 
         
         text-decoration: none;
         list-style: none;
@@ -273,11 +264,11 @@ img.con3{
       
       .social-icon a {
         display: flex; 
-        text-align: center; /* Center-align text */
-       ; /* Add some padding */
-        transition: all 0.3s ease; /* Add transition for hover effects */
+        text-align: center; 
+       
+        transition: all 0.3s ease; 
         
-        font-size: 36px; /* Increased font-size */
+        font-size: 36px;
       }
       
       .social-icon  a:hover {
@@ -286,51 +277,32 @@ img.con3{
       .noi-dunglinks {
           text-decoration: none;
       } 
-
-
-
-
-
-   
-   
-
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      nav{
+        height: 35px;
+        background:blue ;
+    }
+    nav .menu ul{
+        list-style: none;
+       
+    }
+    nav .menu ul li{
     
+        display:inline-block;
+        line-height: 35px;
+        padding: 0 15px;
+    }
+    nav .menu ul li a{
+        color:#fff;
+        font-size: 15px;
+        text-decoration: none;
+       
+    }
    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
